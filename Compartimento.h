@@ -13,8 +13,8 @@ void inicializarListaComp(ListaRochas* lista);
 void insere_Rocha(ListaRochas* lista, float valor, float peso, int usada);
 void remove_Rocha(ListaRochas* lista, int indice);
 void ImprimeCompartimento(ListaRochas* lista);
-float selecionarRochas(ListaRochas *lista, float limitePeso, int indicesSelecionados[], int *numSelecionados);
+float calcularValorAgregado(RochaIndv r);
 void ordenarIndicesPorValorAgregado(ListaRochas *lista, int indices[]);
-void ImprimeCompartimento(ListaRochas* lista);
+float selecionarRochas(ListaRochas *lista, float limitePeso, int indicesSelecionados[], int *numSelecionados);
 
 #endif
